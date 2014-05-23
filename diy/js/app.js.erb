@@ -44,6 +44,7 @@ Galleria.ready(function () {
   var resize = function (dataUrl, callback) {
     // resize image
     var tmpImg = new Image();
+    tmpImg.crossOrigin = '';
     tmpImg.src = dataUrl;
     tmpImg.onload = function() {
       var w = tmpImg.width;
