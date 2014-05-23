@@ -11,7 +11,7 @@ https://github.com/liveoak-io/liveoak-examples/tree/master/gallery
 To install the quick start from the 'rhc' tool:
 
 ```
-rhc app create myChatApp diy --from-code git://github.com/liveoak/openshift-liveoak-gallery-quickstart
+rhc app create myGalleryApp diy --from-code git://github.com/liveoak/openshift-liveoak-gallery-quickstart
 ```
 
 or install from the openshift console using the DIY cartridge with the source code option set to git://github.com/liveoak/openshift-liveoak-gallery-quickstart 
